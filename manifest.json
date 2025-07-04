@@ -1,21 +1,17 @@
 {
   "name": "Ishan Kalhe Portfolio",
   "short_name": "Ishan",
-  "start_url": "index.html",
+  "description": "Portfolio of Ishan Kalhe - Web Developer",
+  "start_url": "/portfolio/index.html",
   "display": "standalone",
   "background_color": "#000000",
   "theme_color": "#0d6efd",
   "orientation": "portrait",
   "icons": [
     {
-      "src": "icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    },
-    {
-      "src": "icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png"
+      "src": "images.jpeg",
+      "sizes": "225x225",
+      "type": "image/jpeg"
     }
   ]
 }
