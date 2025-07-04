@@ -182,6 +182,15 @@
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
+        <script src="scripts.js"></script>
+        <script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker
+      .register('service-worker.js')
+      .then(reg => console.log('✅ Service Worker Registered:', reg.scope))
+      .catch(err => console.log('❌ Service Worker Error:', err));
+  }
+</script>
+
     </body>
 </html>
