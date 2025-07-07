@@ -245,12 +245,13 @@
         <!-- Core theme JS-->
         <script src="scripts.js"></script>
         <script>
-  if ('serviceWorker' in navigator) {
-    navigator.serviceWorker
-      .register('service-worker.js')
-      .then(reg => console.log('✅ Service Worker Registered:', reg.scope))
-      .catch(err => console.log('❌ Service Worker Error:', err));
-  }
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker
+    .register('/portfolio/service-worker.js') // ✅ Add `/portfolio/` to the path
+    .then(reg => console.log('✅ Service Worker Registered:', reg.scope))
+    .catch(err => console.log('❌ Service Worker Error:', err));
+}
+
 </script>
         <!-- OneSignal SDK -->
 <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
