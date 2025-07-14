@@ -68,6 +68,10 @@ This is a personal portfolio website designed and developed by **Ishan Kalhe**, 
 - 🔗 [Live Demo](https://ishankalhe911.github.io/miniprojects/simplecalci.html)
 - 🔧 Tech: HTML, CSS, JavaScript
 - 📃 Description: A clean calculator with basic arithmetic operations and responsive design.
+### 4. **Appointment Booking Website (WordPress)**
+- 🔗 [Live Demo](https://github.com/Ishankalhe911/wordpressappointment)
+- 🔧 Tech: WordPress, Astra Theme, Elementor, WP Mail SMTP, Rank Math SEO
+- 📃 Description: A fully functional, responsive appointment booking platform for freelance services. Includes calendar-based booking, automated email notifications, SEO optimization, and a clean UI designed with Elementor.
 
 ---
 
