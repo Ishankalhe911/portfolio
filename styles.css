@@ -78,6 +78,13 @@
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
 }
+/* This targets all paragraphs, list items, and subheadings */
+.resume-section-content p, 
+.resume-section-content li, 
+.resume-section-content .subheading,
+.resume-section-content .social-icons i {
+    color: #000000 !important; /* Forces font color to Black */
+}
 
 *,
 *::before,
